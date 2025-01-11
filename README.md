@@ -76,11 +76,11 @@ To ensure the bot functions correctly:
 - 🔄 **Automated Input:** Executes macros (`r.exe` and `space.exe`) for loot collection.  
 - 📲 **Messaging Integration:** Sends notifications via Telegram about detected loot or bot actions.  
 
----
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
----
-
-# 🐟 BDO-FISH-BOT (TÜRKÇE)
+# 🐟 BDO-FISH-BOT 
 
 📺 **YouTube Eğitim Videosu:** [Hemen İzle](https://www.youtube.com/watch?v=l-WpyVWrr3s)  
 📥 **İndirme Linki:** [BDO Fish Bot İndir](https://dosya.co/zstsru4peo6d/BDO_FISH_BOT.rar.html)
