@@ -21,7 +21,8 @@ To ensure the bot functions correctly:
 
 ---
 
-#### 2️⃣ Game Settings  
+#### 2️⃣ Game Settings 
+- **Set the game language to English or Turkish, as using other languages may cause scanning area errors due to text positioning issues !!!!!!!
 - **Resolution:** `1920x1080`  
 - **UI Scale:** `100%`  
 - **Game Controller:** Enable the "Use Game Controller" option in game settings.  
