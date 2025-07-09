@@ -6,154 +6,68 @@
 
 ---
 
-### 🔒 About Antivirus Protection  
-Antivirus programs may block macro files. 🛑  
-Before using the bot, temporarily disable your antivirus protection to ensure proper functionality.  
+🚨 IMPORTANT SETTINGS FOR BOT OPERATION 🚨
+🖥️ UI SETTINGS
+In-game UI scale must be set to 100%!
 
----
+After setting it to 100%, make sure it's saved correctly (sometimes it saves as 99 or 101 instead).
 
-### ⚙️ Setup Instructions
+🌍 DISPLAY MODE
+The bot cannot play the fishing mini-game in Fullscreen or Windowed modes.
 
-#### 1️⃣ Run Programs as Administrator  
-To ensure the bot functions correctly:  
-- Always **Run as Administrator** when launching the bot or related programs.  
-⚠️ Without this, the bot cannot access required permissions and will not work properly.  
+Set your game to "Fullscreen Windowed" mode for optimal performance.
 
----
+🎮 GAMEPAD SETTINGS
+Enable "Use Gamepad" in-game settings to let the bot detect fishing icons (A) and mini-game icons.
 
-#### 2️⃣ Game Settings 
-- **Set the game language to English or Turkish, as using other languages may cause scanning area errors due to text positioning issues !!!!!!!
-- **Resolution:** `1920x1080`  
-- **UI Scale:** `100%`  
-- **Game Controller:** Enable the "Use Game Controller" option in game settings.  
+This setting affects only the fishing icon's detection.
 
-⚠️ *Incorrect settings may cause the bot to fail to properly position the loot window or execute actions.*  
+🔤 FONT SETTINGS
+The game uses "Strong Sword" font for compatibility.
 
----
+To apply:
 
-#### 3️⃣ Loot Window and Reference Image  
-1. Open the **reference PNG file** from the RAR archive in **full-screen mode**.  
-2. Align the in-game loot window to exactly match the position shown in the reference PNG.  
+Place the “prestringtable” file (from the bot’s files) in your Black Desert Online main game folder.
 
-⚠️ *Improper alignment may result in the bot failing to recognize loot windows or performing incorrect actions.*  
+🎣 FISHING ICON POSITION
+The position of the fishing icon may vary by game language.
 
----
+In the bot window: Check “Show Fish Scan Area” and manually drag the window to adjust the scan area.
 
-### 💻 Bot Functionalities
+In Loot Bot: Check “Show Loot Scan Area” and position the box where loot appears.
 
----
+🪟 WINDOW FOCUS
+The game may lose focus if the monitor turns off.
 
-#### 💥 1. BDO Combo Bot  
-**Functionality:**  
-- Automates complex macro sequences to execute combos or movement chains.  
+Go to “Target Window” in the Fish Bot, select your game window, and enable “Keep window focus”.
 
-**Technologies Used:**  
-- 🎯 **Image Processing:** Detects in-game patterns (e.g., enemy movements) using OpenCV.  
-- 🖥️ **Screen Capture:** Captures specific regions of the game screen with MSS.  
-- 🔄 **Macro Execution:** Simulates keyboard inputs via external macro files.  
-- 🚀 **Multithreading:** Enables parallel execution of tasks for better performance.  
+The bot will check every 10 seconds and bring the window back to the front if necessary.
 
----
+🟢 CUSTOMIZING FISH COLORS
+Move fish icons into color folders to catch specific colors.
 
-#### 🎣 2. BDO Fish Bot  
-**Functionality:**  
-- Detects a fish symbol during the fishing process and simulates pressing the "Space" key automatically.  
+Example: If you tick the Red box in the bot and place a yellow fish icon in the red folder, the bot will catch both red and that yellow fish.
 
-**Technologies Used:**  
-- 🐟 **Image Processing:** Searches for the fish symbol with OpenCV’s template matching.  
-- 📸 **Screen Capture:** Captures specific screen regions using PyAutoGUI.  
-- ⌨️ **Automated Keyboard Input:** Executes macros to perform in-game actions.  
-- 🖼️ **GUI:** Provides a user-friendly interface with Tkinter for monitoring and control.  
+COLOR TRANSLATIONS:
 
----
+baliklar = fishes
 
-#### 💎 3. BDO Loot Bot  
-**Functionality:**  
-- Detects loot windows, aligns them, and performs automated actions like collecting loot.  
+red = kırmızı
 
-**Technologies Used:**  
-- 📋 **Image Processing:** Recognizes loot windows and rewards using OpenCV.  
-- 🖥️ **Screen Capture:** Uses MSS to analyze specific screen regions.  
-- 🔄 **Automated Input:** Executes macros (`r.exe` and `space.exe`) for loot collection.  
-- 📲 **Messaging Integration:** Sends notifications via Telegram about detected loot or bot actions.  
+yellow = sarı
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+blue = mavi
 
-# 🐟 BDO-FISH-BOT 
+green = yeşil
 
-📺 **YouTube Eğitim Videosu:** [Hemen İzle](https://www.youtube.com/watch?v=l-WpyVWrr3s)  
-📥 **İndirme Linki:** [BDO Fish Bot İndir](https://dosya.co/zstsru4peo6d/BDO_FISH_BOT.rar.html)
+⏱️ LOOT BOT - DURATION (SECONDS)
+Duration (seconds) means that if no fish appear within the set time, the bot will stop.
 
----
+Recommended setting: 120 seconds.
 
-### 🔒 Antivirüs Koruması Hakkında  
-Antivirüs programları makro dosyalarını engelleyebilir. 🛑  
-Botu kullanmadan önce antivirüs korumasını geçici olarak devre dışı bırakmayı unutmayın.  
+🔄 CONTINUE AFTER STOP
+If you want the bot to continue fishing after stopping:
 
----
+Check “Continue after Telegram message.”
 
-### ⚙️ Kurulum Adımları
-
-#### 1️⃣ Programları Yönetici Olarak Çalıştırın  
-Botun düzgün çalışabilmesi için:  
-- Botu ve ilgili programları her zaman **Yönetici Olarak Çalıştır** seçeneğiyle başlatın.  
-⚠️ Aksi takdirde, bot gerekli izinlere erişemez ve işlevlerini yerine getiremez.  
-
----
-
-#### 2️⃣ Oyun Ayarları  
-- **Çözünürlük:** `1920x1080`  
-- **UI Ölçeği:** `%100`  
-- **Oyun Kolu:** Oyun ayarlarından "Oyun Kolu Kullan" seçeneğini aktif hale getirin.  
-
-⚠️ *Bu ayarlar doğru yapılmazsa, bot loot penceresini doğru şekilde konumlandıramaz ve çalışmaz.*  
-
----
-
-#### 3️⃣ Loot Penceresi ve Referans Görseli  
-1. **RAR arşivindeki referans PNG dosyasını** tam ekran modunda açın.  
-2. Oyun içindeki loot penceresini referans PNG’deki konuma **birebir hizalayın**.  
-
-⚠️ *Doğru hizalanmadığında bot loot penceresini tanıyamaz veya hatalı işlemler yapabilir.*  
-
----
-
-### 💻 Bot İşlevleri
-
----
-
-#### 💥 1. BDO Combo Bot  
-**İşlev:**  
-- Karmaşık makro dizilerini otomatik olarak tetikleyerek kombo ve hareket zincirlerini uygular.  
-
-**Kullanılan Teknolojiler:**  
-- 🎯 **Görüntü İşleme:** OpenCV kullanılarak oyun içindeki belirli desenler (örneğin düşman hareketleri) algılanır.  
-- 🖥️ **Ekran Yakalama:** MSS kullanılarak oyun ekranının belirli bölgeleri yakalanır.  
-- 🔄 **Makro Tetikleme:** Harici makro dosyaları çalıştırılarak klavye girişleri simüle edilir.  
-- 🚀 **Çoklu İş Parçacığı (Multithreading):** Daha iyi performans için görevler paralel olarak gerçekleştirilir.  
-
----
-
-#### 🎣 2. BDO Fish Bot  
-**İşlev:**  
-- Balıkçılık sırasında ekran üzerindeki balık simgesini algılar ve otomatik olarak "Space" tuşuna basar.  
-
-**Kullanılan Teknolojiler:**  
-- 🐟 **Görüntü İşleme:** OpenCV ile balık simgesi şablonu ekran görüntüsünde aranır.  
-- 📸 **Ekran Yakalama:** PyAutoGUI kullanılarak ekranın belirli bölgeleri yakalanır.  
-- ⌨️ **Otomatik Klavye Girişi:** Algılama sonrası "Space" makrosunu çalıştırarak aksiyon alınır.  
-- 🖼️ **Grafiksel Arayüz (GUI):** Tkinter ile kullanıcıya botun durumunu izleme ve kontrol etme imkanı sağlar.  
-
----
-
-#### 💎 3. BDO Loot Bot  
-**İşlev:**  
-- Loot penceresini tespit eder, hizalar ve otomatik olarak loot toplama işlemlerini gerçekleştirir.  
-
-**Kullanılan Teknolojiler:**  
-- 📋 **Görüntü İşleme:** OpenCV ile loot pencereleri ve ödüller algılanır.  
-- 🖥️ **Ekran Yakalama:** MSS modülü ile ekranın ilgili bölgeleri analiz edilir.  
-- 🔄 **Otomatik Giriş:** `r.exe` ve `space.exe` gibi makro dosyalarını çalıştırarak loot toplar.  
-- 📲 **Mesajlaşma Entegrasyonu:** Telegram API kullanılarak botun işlemleri veya eşleşmeler hakkında bildirim gönderir.  
+Telegram notifications are optional; the bot will still work even if you leave the token and chat ID empty.
